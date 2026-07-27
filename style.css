@@ -186,3 +186,12 @@ p {
     height: 130px;
     vertical-align: middle;
 }
+
+@media screen and (max-width: 768px) {
+    .logo-img {
+        height: 70px; 
+    }
+    .content-box {
+        padding: 15px; 
+    }
+}
