@@ -105,21 +105,6 @@ p {
     text-align: justify; 
 }
 
-@media screen and (max-width: 768px) {
-    .content-box,
-    .content-box-right {
-        flex-direction: column; 
-        align-items: flex-start; 
-        gap: 15px; 
-    }
-
-    .content-box ul,
-    .content-box-right ul {
-        flex-direction: column; 
-        gap: 10px; 
-    }
-}
-
 .main-content {
     max-width: 900px;
     margin: 50px auto; 
@@ -188,10 +173,21 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    .logo-img {
-        height: 70px; 
+    .content-box,
+    .content-box-right {
+        flex-direction: column; 
+        align-items: flex-start; 
+        gap: 15px; 
+        padding: 20px 15px; 
     }
-    .content-box {
-        padding: 15px; 
+
+    .content-box ul,
+    .content-box-right ul {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .logo-img {
+        height: 70px;
     }
 }
