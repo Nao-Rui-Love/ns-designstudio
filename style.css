@@ -191,3 +191,11 @@ p {
         height: 70px;
     }
 }
+
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 35px;
+}
